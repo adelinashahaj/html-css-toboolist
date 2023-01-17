@@ -49,8 +49,8 @@ body{
 
 }
 .button.task{
-    background-color: blue;
-    border-color: blue;
+    background-color: rgb(0, 166, 255);
+    border-color: rgb(0, 179, 255);
 }
 .button.section{
     background-color: white;
@@ -75,9 +75,11 @@ body{
     color: rgb(128, 0, 0);
 }
 .c-blue{
-    background-color: aqua;
+    background-color: rgb(0, 179, 255);
     border-radius: 10px;
     padding: 5px;
+    font-size: 12px;
+    color:  rgba(255, 255, 255, 0.944);
 }
 .item{
     margin-top: 20px;
@@ -88,21 +90,29 @@ body{
     background-color: rgb(247, 0, 255);
     border-radius: 10px;
     padding: 5px;
+    font-size: 12px;
+    color:  white;
 }
 .c-verde{
-    background-color: rgb(0, 255, 153);
+    background-color: rgb(12, 169, 48);
     border-radius: 10px;
     padding: 5px;
+    font-size: 12px;
+    color:  white;
 }
 .c-arancione{
     background-color: rgb(255, 162, 0);
     border-radius: 10px;
     padding: 5px;
+    font-size: 12px;
+    color:  white;
 }
 .c-rosa{
     background-color: rgb(191, 113, 178);
     border-radius: 10px;
     padding: 5px;
+    font-size: 12px;
+    color:  white;
 }
 .riga1{
   margin-left: 8px;
