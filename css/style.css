@@ -13,10 +13,48 @@
     font-size: 40px;
     vertical-align: middle;
 }
-.container{
+/*.container{
     width: 600px;
     margin: 30px 400px;
     padding: 80px;
     border:1px solid rgba(0, 0, 0, 0.5);
     border-radius: 10px 10px;
+}*/
+.content{
+    padding: 10px;
+    border: solid;
+    margin: 30px 400px;
+    width: 600px;
+    border:1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px 10px;
+    
+
+}
+
+
+.button{
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid;
+    margin-bottom: 10px;
+
+
+}
+.button.task{
+    background-color: blue;
+}
+.n-task{
+    width: 50px;
+}
+.check-mark{
+    background-color:white;
+    border-radius: 50% ;
+    border: 1px solid rgba(26, 128, 77, 0.5) ;
+    padding: 2px;
+    color: green;
+}
+.Editorial{
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 5px;
 }
