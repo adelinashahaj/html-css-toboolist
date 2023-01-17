@@ -4,14 +4,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 #logo{
     height: 90px;
     vertical-align: middle;
+    
 }
 
 .logo-text{
     font-size: 40px;
     vertical-align: middle;
+    background-color: white;
 }
 /*.container{
     width: 600px;
@@ -27,6 +30,7 @@
     width: 600px;
     border:1px solid rgba(0, 0, 0, 0.5);
     border-radius: 10px 10px;
+    background-color: white;
     
 
 }
@@ -55,7 +59,14 @@
     padding: 2px;
     color: green;
 }
-.Editorial{
+.cross{
+    background-color:white;
+    border-radius: 50% ;
+    border: 1px solid rgba(255, 13, 13, 0.5) ;
+    padding: 2px;
+    color: rgb(128, 0, 0);
+}
+.c-blue{
     background-color: aqua;
     border-radius: 10px;
     padding: 5px;
@@ -64,4 +75,24 @@
     margin-top: 10px;
 
 
+}
+.c-viola{
+    background-color: rgb(247, 0, 255);
+    border-radius: 10px;
+    padding: 5px;
+}
+.c-verde{
+    background-color: rgb(0, 255, 153);
+    border-radius: 10px;
+    padding: 5px;
+}
+.c-arancione{
+    background-color: rgb(255, 162, 0);
+    border-radius: 10px;
+    padding: 5px;
+}
+.c-rosa{
+    background-color: rgb(191, 113, 178);
+    border-radius: 10px;
+    padding: 5px;
 }
