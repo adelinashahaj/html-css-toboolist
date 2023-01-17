@@ -13,3 +13,10 @@
     font-size: 40px;
     vertical-align: middle;
 }
+.container{
+    width: 600px;
+    margin: 30px 400px;
+    padding: 80px;
+    border:1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px 10px;
+}
