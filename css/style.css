@@ -63,28 +63,36 @@ body{
     border-color: rgba(152, 147, 148, 0.464);
 }
 hr{
-  border-color: rgba(255, 255, 255, 0.86);
+  border-color: rgba(0, 156, 240, 0.86);
 }    
 .n-task{
     
     margin-top: 25px;
     margin-bottom: 25px;
 }
-.check-mark{
-    background-color:white;
-    border-radius: 50% ;
-    border: 2px solid rgba(26, 128, 77, 0.5) ;
-    padding: 2px;
-    color: green;
+.cerchio{
+    
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   display: inline-block;
+   border: 1px solid gray;
+   text-align: center;
+   line-height: 20px;
     
 }
-.cross{
-    background-color:white;
-    border-radius: 50% ;
-    border: 2px solid rgba(255, 13, 13, 0.5) ;
-    padding: 2px;
-    color: rgb(128, 0, 0);
+.mark{
+    border: 1px solid green;
+    color: green;
 }
+
+.cross{
+    border: 1px solid red;
+    color: red;
+    
+}
+
+
 .c-blue{
     background-color: rgb(0, 179, 255);
     border-radius: 10px;
